@@ -1,0 +1,1469 @@
+{
+ "title": "Irkutsk Plague Watch",
+ "eyebrow": "Outbreak watch · nexus Irkutsk Oblast, Russia",
+ "sweepHours": 24,
+ "schema": 1,
+ "lastSweep": "2026-10-06T12:49:00Z",
+ "sweepNumber": 3,
+ "nexus": {
+  "name": "Shelekhov",
+  "lat": 52.21,
+  "lon": 104.1
+ },
+ "level": 1,
+ "levels": [
+  "No signal",
+  "Suspected case, contacts traced, no secondary cases",
+  "Plague confirmed, no secondary cases",
+  "Secondary cases in Irkutsk area",
+  "Cases elsewhere in Russia or at a transport hub",
+  "Cases in another country"
+ ],
+ "summary": "One death on 2 October of a 28-year-old technician at the Irkutsk Anti-Plague Institute, widely reported as suspected pneumonic plague. Rospotrebnadzor still says pneumonia of unknown etiology; WHO is verifying the lab results and rates public risk as low. About 200 contacts remain in the Shelekhov hospital inpatient wing, all testing negative; the governor hopes to discharge them next week. No secondary cases reported by any source as of the morning of 6 October. ECDC and the European Commission are monitoring. Four Central Asian countries have tightened border health checks; no Mongolian or Chinese measures found.",
+ "figures": [
+  {
+   "label": "Deaths",
+   "value": "1",
+   "sub": "Suspected plague; officially 'pneumonia of unknown etiology'",
+   "status": "official"
+  },
+  {
+   "label": "Contacts under observation",
+   "value": "~200",
+   "sub": "Held in Shelekhov hospital inpatient wing; governor: all test negative (Izvestia count 197)",
+   "status": "official"
+  },
+  {
+   "label": "Secondary cases",
+   "value": "0",
+   "sub": "Contacts tested daily: 2 COVID-19, 2 rhinovirus; none symptomatic per WHO",
+   "status": "official"
+  },
+  {
+   "label": "Lab-confirmed plague",
+   "value": "No",
+   "sub": "WHO verifying lab tests and results; no cause officially confirmed",
+   "status": "official"
+  },
+  {
+   "label": "Hospitals under quarantine",
+   "value": "1–5",
+   "sub": "Shelekhov official; Irkutsk hospital quarantines reported by Lyudi Baikala, denied by hospitals via pro-government fact-check sites",
+   "status": "disputed"
+  },
+  {
+   "label": "Countries with border measures",
+   "value": "4",
+   "sub": "KZ, KG, UZ, TJ official; Mongolia announced none",
+   "status": "official"
+  }
+ ],
+ "keyDates": {
+  "indexDate": "2026-10-02",
+  "indexLabel": "death",
+  "hospitalized": "2026-09-29",
+  "quarantineDays": 21,
+  "incubationMaxDays": 7
+ },
+ "assessment": [
+  "Global spread risk remains low. There is one case, no secondary transmission reported by any source after four days, and the ~200 contacts are held in one hospital wing. WHO calls the risk to the general population low; ECDC notes very limited travel between Irkutsk and the EU and that person-to-person spread of plague is usually inefficient.",
+  "The main uncertainty is information quality, not epidemiology. Official and regional statements contradict each other, posts have been edited or deleted, and Russian state media removed earlier coverage. Claims about Irkutsk hospital quarantines are now contested in both directions. Treat 'no secondary cases' as an official claim until independent reporting confirms it.",
+  "Timing matters. Plague incubation is usually 1–7 days, and pneumonic plague is at the short end. Contacts exposed by 2 October pass the 7-day mark around 9 October. We are now at day 4 with no reported illness, which is reassuring but not yet conclusive. A clean cohort after 9 October would make onward spread from this case very unlikely.",
+  "Geographic exposure: Shelekhov sits about 15 km from Irkutsk (pop. ~620,000), about 20 km from Irkutsk International Airport, and on the Trans-Siberian railway, which carries traffic to Krasnoyarsk, Ulan-Ude, Chita and the rail crossings into Mongolia (Naushki) and China (Zabaykalsk). Any case surfacing along that corridor would be the first real signal of spread."
+ ],
+ "watchFor": [
+  "Laboratory confirmation or exclusion of Yersinia pestis by Rospotrebnadzor or WHO (WHO says it is verifying the results)",
+  "Any symptomatic contact, or a fever/pneumonia cluster in Shelekhov or Irkutsk",
+  "9 October: 7 days since death. Official word that all contacts remain well would make onward spread very unlikely",
+  "Discharge of the ~200 contacts from Shelekhov hospital (governor: hoped for next week)",
+  "Release of the 60+ institute staff reportedly confined inside the building",
+  "Quarantines or screening at Irkutsk airport, Irkutsk station, Ulan-Ude or Krasnoyarsk",
+  "Mongolian or Chinese action at the Naushki–Sükhbaatar or Zabaykalsk–Manzhouli crossings (none found so far)",
+  "Whether the institute's 21–22 Oct international plague conference in Irkutsk goes ahead (delegates invited from 10 capitals incl. Beijing and Ulaanbaatar)"
+ ],
+ "sites": [
+  {
+   "id": "shel",
+   "name": "Shelekhov",
+   "lat": 52.21,
+   "lon": 104.1,
+   "kind": "index",
+   "pop": "~48,000",
+   "note": "District hospital where the patient died; inpatient wing quarantined and holding ~200 contacts (officially confirmed). IrkAZ aluminium plant mask rule.",
+   "inset": true,
+   "mainLabel": "Shelekhov / Irkutsk"
+  },
+  {
+   "id": "irk",
+   "name": "Irkutsk",
+   "lat": 52.29,
+   "lon": 104.3,
+   "kind": "quarantine",
+   "pop": "~620,000",
+   "note": "Regional capital. Lyudi Baikala reported quarantines at City Hospitals 1, 3, 10, a children's hospital and a maternity ward; hospitals quoted by local and pro-government fact-check sites say they work normally. Institute plans an international plague conference here 21–22 Oct.",
+   "inset": true
+  },
+  {
+   "id": "ikt",
+   "name": "Irkutsk Intl Airport (IKT)",
+   "lat": 52.268,
+   "lon": 104.389,
+   "kind": "hub",
+   "pop": "",
+   "note": "Main air gateway: Moscow, Novosibirsk, Krasnoyarsk, Vladivostok and international routes (incl. China). No screening or restrictions reported; airports and transport operating normally.",
+   "inset": true,
+   "label": "IKT"
+  },
+  {
+   "id": "irkst",
+   "name": "Irkutsk-Passazhirsky station",
+   "lat": 52.284,
+   "lon": 104.257,
+   "kind": "hub",
+   "pop": "",
+   "note": "Trans-Siberian mainline station. No measures reported.",
+   "inset": true,
+   "label": "Rail stn"
+  },
+  {
+   "id": "ang",
+   "name": "Angarsk",
+   "lat": 52.54,
+   "lon": 103.89,
+   "kind": "watch",
+   "pop": "~220,000",
+   "note": "Next large city west on the Trans-Siberian. No reports.",
+   "inset": true
+  },
+  {
+   "id": "bai",
+   "name": "Baikalsk",
+   "lat": 51.51,
+   "lon": 104.15,
+   "kind": "watch",
+   "pop": "~12,000",
+   "note": "Town administration briefly advised residents not to travel to Shelekhov, then deleted the post.",
+   "inset": true
+  },
+  {
+   "id": "sly",
+   "name": "Slyudyanka",
+   "lat": 51.66,
+   "lon": 103.71,
+   "kind": "watch",
+   "pop": "~18,000",
+   "note": "Rail junction on Baikal's south shore. No reports.",
+   "inset": true
+  },
+  {
+   "id": "uud",
+   "name": "Ulan-Ude (UUD)",
+   "lat": 51.83,
+   "lon": 107.58,
+   "kind": "hub",
+   "pop": "~440,000",
+   "note": "Buryatia capital; airport and Trans-Siberian / Trans-Mongolian junction. Head of Buryatia denies any link to the case."
+  },
+  {
+   "id": "kja",
+   "name": "Krasnoyarsk (KJA)",
+   "lat": 56.01,
+   "lon": 92.87,
+   "kind": "hub",
+   "pop": "~1.2 million",
+   "note": "Largest city in the region; air and rail hub west of Irkutsk. No reports."
+  },
+  {
+   "id": "chita",
+   "name": "Chita",
+   "lat": 52.03,
+   "lon": 113.5,
+   "kind": "hub",
+   "pop": "~330,000",
+   "note": "Zabaykalsky Krai capital on the Trans-Siberian. No reports."
+  },
+  {
+   "id": "brat",
+   "name": "Bratsk",
+   "lat": 56.15,
+   "lon": 101.63,
+   "kind": "watch",
+   "pop": "~220,000",
+   "note": "Second city of Irkutsk Oblast. No reports."
+  },
+  {
+   "id": "kyzyl",
+   "name": "Kyzyl",
+   "lat": 51.72,
+   "lon": 94.45,
+   "kind": "watch",
+   "pop": "~125,000",
+   "note": "Tuva capital, near a natural plague focus (routine surveillance)."
+  },
+  {
+   "id": "nau",
+   "name": "Naushki rail crossing",
+   "lat": 50.4,
+   "lon": 106.1,
+   "kind": "hub",
+   "pop": "",
+   "note": "Trans-Mongolian border crossing to Sükhbaatar. No measures reported.",
+   "label": "Naushki"
+  },
+  {
+   "id": "zab",
+   "name": "Zabaykalsk crossing",
+   "lat": 49.64,
+   "lon": 117.33,
+   "kind": "hub",
+   "pop": "",
+   "note": "Main Russia–China rail and road crossing (to Manzhouli). No measures reported.",
+   "label": "Zabaykalsk"
+  },
+  {
+   "id": "ub",
+   "name": "Ulaanbaatar (ULN)",
+   "lat": 47.92,
+   "lon": 106.92,
+   "kind": "hub",
+   "pop": "~1.7 million",
+   "note": "Mongolia's capital and air hub. Mongolia's zoonotic-disease centre relayed Russia's finding of no plague on 5 Oct; no border or airport measures announced."
+  },
+  {
+   "id": "hovs",
+   "name": "Khövsgöl natural focus",
+   "lat": 50,
+   "lon": 100.2,
+   "kind": "focus",
+   "pop": "",
+   "note": "Plague cultures lab-confirmed here in late Aug 2026 (rodent reservoir). Not linked to this case.",
+   "label": "Khövsgöl focus"
+  },
+  {
+   "id": "tuva",
+   "name": "Tuva–Altai foci",
+   "lat": 50.6,
+   "lon": 91.5,
+   "kind": "focus",
+   "pop": "",
+   "note": "Long-standing natural foci; mobile labs on routine summer duty. Not linked.",
+   "label": "Tuva/Altai foci"
+  }
+ ],
+ "timeline": [
+  {
+   "date": "2026-09-29",
+   "text": "Technician admitted to Shelekhov district hospital with severe pneumonia; later put on a ventilator.",
+   "status": "reported",
+   "src": [
+    "s7",
+    "s4"
+   ]
+  },
+  {
+   "date": "2026-10-01",
+   "text": "Shelekhov hospital closed to admissions and discharges; district head Maxim Modin confirms the restriction.",
+   "status": "official",
+   "src": [
+    "s24",
+    "s19"
+   ]
+  },
+  {
+   "date": "2026-10-02",
+   "text": "Patient dies overnight 1–2 Oct. Rospotrebnadzor head Anna Popova flies to Irkutsk; Governor Kobzev convenes an emergency commission over a 'particularly dangerous infection'.",
+   "status": "official",
+   "src": [
+    "s3",
+    "s9",
+    "s24"
+   ]
+  },
+  {
+   "date": "2026-10-02",
+   "text": "About 200 contacts placed under observation (Izvestia: 197).",
+   "status": "confirmed",
+   "src": [
+    "s3",
+    "s6"
+   ]
+  },
+  {
+   "date": "2026-10-02",
+   "text": "Head of Buryatia says the woman died of plague and never visited his republic; later edits the post to say 'possibly'.",
+   "status": "disputed",
+   "src": [
+    "s3",
+    "s10"
+   ]
+  },
+  {
+   "date": "2026-10-03",
+   "text": "Irkutsk Aluminium Plant in Shelekhov orders masks, then edits the plague reference out of its notice. Baikalsk officials post, then delete, a travel warning about Shelekhov.",
+   "status": "reported",
+   "src": [
+    "s7",
+    "s14"
+   ]
+  },
+  {
+   "date": "2026-10-04",
+   "text": "Rospotrebnadzor: cause was pneumonia of unknown etiology, no lab accident found, no plague among contacts (2 COVID-19, 2 rhinovirus).",
+   "status": "official",
+   "src": [
+    "s5",
+    "s4"
+   ]
+  },
+  {
+   "date": "2026-10-04",
+   "text": "Independent outlet Lyudi Baikala reports three-week quarantines at several Irkutsk hospitals and doctors privately calling it plague.",
+   "status": "unverified",
+   "src": [
+    "s6",
+    "s23"
+   ]
+  },
+  {
+   "date": "2026-10-04",
+   "text": "White House says it is monitoring and assessing options.",
+   "status": "official",
+   "src": [
+    "s2"
+   ]
+  },
+  {
+   "date": "2026-10-04",
+   "text": "Local Telegram channel 'Irkutsk Political' says the Irkutsk hospitals named in quarantine reports are working normally, contradicting Lyudi Baikala.",
+   "status": "disputed",
+   "src": [
+    "s26"
+   ]
+  },
+  {
+   "date": "2026-10-05",
+   "text": "Kazakhstan, Kyrgyzstan, Uzbekistan and Tajikistan tighten sanitary controls at borders. Not border closures.",
+   "status": "confirmed",
+   "src": [
+    "s11",
+    "s12",
+    "s13",
+    "s20"
+   ]
+  },
+  {
+   "date": "2026-10-05",
+   "text": "WHO: cause not confirmed, testing under way, contacts symptom-free, risk to general public low; support offered.",
+   "status": "official",
+   "src": [
+    "s9",
+    "s8"
+   ]
+  },
+  {
+   "date": "2026-10-05",
+   "text": "Kremlin tells public to rely on Rospotrebnadzor. Governor says quarantined relatives may be released next week. US State Dept urges Russia to share information openly.",
+   "status": "official",
+   "src": [
+    "s4",
+    "s19"
+   ]
+  },
+  {
+   "date": "2026-10-05",
+   "text": "RFE/RL quotes a relative saying more than 60 institute staff have been confined inside the building since 2 Oct, sleeping on floors and chairs.",
+   "status": "reported",
+   "src": [
+    "s27",
+    "s28"
+   ]
+  },
+  {
+   "date": "2026-10-05",
+   "text": "Mongolia's National Center for Zoonotic Diseases relays Russia's finding that no plague was detected; no new Mongolian measures announced.",
+   "status": "official",
+   "src": [
+    "s29"
+   ]
+  },
+  {
+   "date": "2026-10-05",
+   "text": "President Trump says the US will help Russia 'as much as we can' and that he has not spoken to Putin about it. Secretary Rubio says the US is monitoring but sees no cause for alarm.",
+   "status": "official",
+   "src": [
+    "s30",
+    "s31"
+   ]
+  },
+  {
+   "date": "2026-10-05",
+   "text": "Governor Kobzev says the ~200 contacts are held in Shelekhov hospital's inpatient wing, all test negative, and he hopes to discharge them next week; calls the situation unpleasant but under control.",
+   "status": "official",
+   "src": [
+    "s35"
+   ]
+  },
+  {
+   "date": "2026-10-05",
+   "text": "Pro-government fact-check site Lapsha Media calls the Irkutsk hospital-quarantine reports fake, citing hospitals that say they operate normally.",
+   "status": "disputed",
+   "src": [
+    "s36"
+   ]
+  },
+  {
+   "date": "2026-10-05",
+   "text": "European Commission says it is following the situation very closely and is ready to coordinate an EU response if needed.",
+   "status": "official",
+   "src": [
+    "s32"
+   ]
+  },
+  {
+   "date": "2026-10-05",
+   "text": "Reports note the institute is still preparing an international plague-control conference in Irkutsk on 21–22 Oct, with delegates invited from 10 capitals including Beijing and Ulaanbaatar.",
+   "status": "reported",
+   "src": [
+    "s34"
+   ]
+  },
+  {
+   "date": "2026-10-06",
+   "text": "WHO spokesperson: WHO is verifying the event, circumstances and lab results with Russia; contacts symptom-free; general-population risk appears low. ECDC says it is monitoring and that the EU risk is limited by low travel volume.",
+   "status": "official",
+   "src": [
+    "s33",
+    "s32"
+   ]
+  }
+ ],
+ "claims": [
+  {
+   "claim": "Cause of death was pneumonic plague",
+   "status": "disputed",
+   "note": "Media and the Buryatia head said plague; Rospotrebnadzor says unknown-cause pneumonia with no work-related pathogen found. WHO says unconfirmed. One regional site (Baikal24) wrote that regional authorities confirmed pneumonic plague; no official text found to support that."
+  },
+  {
+   "claim": "Infection came from a broken test tube in the lab",
+   "status": "disputed",
+   "note": "Widely reported; the institute's commission and Rospotrebnadzor say no accident occurred."
+  },
+  {
+   "claim": "She fell ill after a field trip to Buryatia",
+   "status": "disputed",
+   "note": "Reported via Telegram channel Mash; Buryatia's head denies she visited."
+  },
+  {
+   "claim": "She returned from Thailand before falling ill",
+   "status": "unverified",
+   "note": "One account cited by Meduza; no corroboration found."
+  },
+  {
+   "claim": "Four or more Irkutsk hospitals under 3-week quarantine",
+   "status": "disputed",
+   "note": "Lyudi Baikala sources; only Shelekhov is officially confirmed. A local Telegram channel and the pro-government fact-check site Lapsha Media say the named hospitals operate normally. No independent confirmation either way."
+  },
+  {
+   "claim": "Neighboring countries closed borders with Russia",
+   "status": "disputed",
+   "note": "One outlet reported closures. Official statements from KZ, KG, UZ, TJ describe heightened screening only."
+  },
+  {
+   "claim": "60+ institute staff sealed inside the institute",
+   "status": "reported",
+   "note": "Now reported by RFE/RL and Radio Svoboda citing a relative; no official comment."
+  },
+  {
+   "claim": "Criminal case opened over safety violations",
+   "status": "unverified",
+   "note": "Single report (Vesty.co.il); no Russian official confirmation found."
+  },
+  {
+   "claim": "Residents buying up antibiotics",
+   "status": "reported",
+   "note": "Lyudi Baikala, relayed by several outlets."
+  },
+  {
+   "claim": "Official diagnosis is 'pulmonary alveolitis' of unknown cause",
+   "status": "reported",
+   "note": "Wording in Mongolia's NCZD summary of Russian findings; not seen in Rospotrebnadzor's own statements."
+  },
+  {
+   "claim": "Rubio warned the plague 'could quickly spread'",
+   "status": "disputed",
+   "note": "Headline framing. His remark was conditional: travel is very limited, but such an outbreak could spread if it got out. He also said there was no cause for alarm."
+  }
+ ],
+ "regions": [
+  {
+   "name": "Irkutsk Oblast",
+   "country": "Russia",
+   "status": "reported",
+   "note": "Nexus. Shelekhov hospital wing quarantined with ~200 contacts (official, all negative); Irkutsk hospital quarantines reported and disputed; public events and a city clean-up cancelled.",
+   "src": [
+    "s3",
+    "s8",
+    "s35"
+   ]
+  },
+  {
+   "name": "Buryatia",
+   "country": "Russia",
+   "status": "official",
+   "note": "Head of republic denies any plague foci or link to the case. Ulan-Ude is the next Trans-Siberian hub east.",
+   "src": [
+    "s3",
+    "s10"
+   ]
+  },
+  {
+   "name": "Zabaykalsky Krai",
+   "country": "Russia",
+   "status": "none",
+   "note": "No reports. Holds the main rail crossing to China.",
+   "src": []
+  },
+  {
+   "name": "Krasnoyarsk Krai",
+   "country": "Russia",
+   "status": "none",
+   "note": "No reports.",
+   "src": []
+  },
+  {
+   "name": "Tuva / Altai",
+   "country": "Russia",
+   "status": "none",
+   "note": "Natural foci under routine surveillance; unrelated to this case.",
+   "src": [
+    "s18"
+   ]
+  },
+  {
+   "name": "Mongolia",
+   "country": "Mongolia",
+   "status": "official",
+   "note": "NCZD relayed Russia's no-plague finding on 5 Oct; no new border measures announced. Earlier reports of heightened alert unconfirmed. Khövsgöl natural focus active since August.",
+   "src": [
+    "s29",
+    "s18"
+   ]
+  },
+  {
+   "name": "China",
+   "country": "China",
+   "status": "none",
+   "note": "No public measures found yet.",
+   "src": []
+  },
+  {
+   "name": "Kazakhstan",
+   "country": "Kazakhstan",
+   "status": "official",
+   "note": "Health Ministry monitoring Irkutsk; preventive measures at border crossings; preliminary risk to Kazakhstan assessed as low.",
+   "src": [
+    "s20",
+    "s12",
+    "s38"
+   ]
+  },
+  {
+   "name": "Kyrgyzstan",
+   "country": "Kyrgyzstan",
+   "status": "official",
+   "note": "All sanitary-quarantine checkpoints on heightened alert.",
+   "src": [
+    "s12"
+   ]
+  },
+  {
+   "name": "Uzbekistan",
+   "country": "Uzbekistan",
+   "status": "official",
+   "note": "Measures to prevent import of dangerous infections.",
+   "src": [
+    "s11",
+    "s13"
+   ]
+  },
+  {
+   "name": "Tajikistan",
+   "country": "Tajikistan",
+   "status": "official",
+   "note": "Tightened border sanitary controls.",
+   "src": [
+    "s13"
+   ]
+  },
+  {
+   "name": "United States",
+   "country": "USA",
+   "status": "official",
+   "note": "Trump offered help; Rubio says monitor, no cause for alarm, though spread is possible if an outbreak escaped. White House and State Dept monitoring with CDC.",
+   "src": [
+    "s2",
+    "s19",
+    "s30",
+    "s31",
+    "s37"
+   ]
+  },
+  {
+   "name": "European Union",
+   "country": "EU",
+   "status": "official",
+   "note": "ECDC monitoring; Commission ready to coordinate. Risk to EU judged limited by low travel volume.",
+   "src": [
+    "s32"
+   ]
+  }
+ ],
+ "history": [
+  {
+   "t": "2026-10-05T23:30:00Z",
+   "deaths": 1,
+   "contacts": 197,
+   "secondary": 0,
+   "countriesMeasures": 4,
+   "level": 1
+  },
+  {
+   "t": "2026-10-06T00:55:00Z",
+   "deaths": 1,
+   "contacts": 197,
+   "secondary": 0,
+   "countriesMeasures": 4,
+   "level": 1
+  },
+  {
+   "t": "2026-10-06T12:49:00Z",
+   "deaths": 1,
+   "contacts": 200,
+   "secondary": 0,
+   "countriesMeasures": 4,
+   "level": 1
+  }
+ ],
+ "log": [
+  {
+   "t": "2026-10-05T23:30:00Z",
+   "n": 1,
+   "changes": "Tracker started. Baseline built from 25 sources in Russian and English."
+  },
+  {
+   "t": "2026-10-06T00:55:00Z",
+   "n": 2,
+   "changes": "Short interval (~1.5 h after baseline). No new cases. Added Mongolia NCZD statement (no measures), Trump/Rubio remarks, RFE/RL report on confined institute staff, local denial of Irkutsk hospital quarantines. Level unchanged at L1. 6 sources added."
+  },
+  {
+   "t": "2026-10-06T12:49:00Z",
+   "n": 3,
+   "changes": "Morning sweep. No new cases; level unchanged at L1. Governor: ~200 contacts held in Shelekhov hospital, all negative, discharge hoped next week. WHO verifying lab results; ECDC and European Commission monitoring (EU row added). Irkutsk hospital-quarantine claim moved to disputed after pro-government fact-check. Added note on the institute's 21–22 Oct international conference. 7 sources added (s32–s38)."
+  }
+ ],
+ "sources": [
+  {
+   "id": "s1",
+   "outlet": "LSHTM",
+   "title": "Rapid reaction: suspected plague death in Russia",
+   "url": "https://www.lshtm.ac.uk/newsevents/news/2026/rapid-reaction-suspected-plague-death-russia-reported",
+   "type": "academic"
+  },
+  {
+   "id": "s2",
+   "outlet": "Axios",
+   "title": "White House monitors suspected plague outbreak in Russia",
+   "url": "https://www.axios.com/2026/10/04/russia-plague-outbreak-white-house-us",
+   "type": "intl"
+  },
+  {
+   "id": "s3",
+   "outlet": "Moscow Times",
+   "title": "Nearly 200 under observation after Irkutsk lab worker dies",
+   "url": "https://www.themoscowtimes.com/2026/10/02/nearly-200-people-under-observation-after-irkutsk-lab-worker-dies-from-plague-a93857",
+   "type": "independent"
+  },
+  {
+   "id": "s4",
+   "outlet": "Moscow Times",
+   "title": "Officials seek to reassure public",
+   "url": "https://www.themoscowtimes.com/2026/10/05/officials-claim-stable-health-situation-in-irkutsk-after-anti-plague-institute-workers-death-a93872",
+   "type": "independent"
+  },
+  {
+   "id": "s5",
+   "outlet": "Rossiyskaya Gazeta",
+   "title": "Rospotrebnadzor: no plague in Irkutsk cities",
+   "url": "https://rg.ru/2026/10/04/v-rospotrebnadzore-zaiavili-ob-otsutstvii-chumy-v-gorodah-irkutskoj-oblasti.html",
+   "type": "state"
+  },
+  {
+   "id": "s6",
+   "outlet": "Meduza",
+   "title": "Hospitals in Irkutsk impose quarantines",
+   "url": "https://meduza.io/en/feature/2026/10/05/hospitals-in-irkutsk-impose-quarantines-after-an-employee-at-an-anti-plague-institute-dies-russia-s-public-health-agency-says-she-died-of-pneumonia-and-the-epidemiological-situation-remains-stable",
+   "type": "independent"
+  },
+  {
+   "id": "s7",
+   "outlet": "Irish Times",
+   "title": "Mystery death at Russian plague institute",
+   "url": "https://www.irishtimes.com/world/middle-east/2026/10/05/mystery-death-at-russian-plague-research-institute-sparks-quarantine-measures-across-siberia/",
+   "type": "intl"
+  },
+  {
+   "id": "s8",
+   "outlet": "CNN",
+   "title": "Dozens quarantined after researcher dies",
+   "url": "https://www.cnn.com/2026/10/04/europe/russia-laboratory-plague-accident-intl",
+   "type": "intl"
+  },
+  {
+   "id": "s9",
+   "outlet": "Newsweek",
+   "title": "WHO statement on Irkutsk case",
+   "url": "https://www.newsweek.com/pneumonic-plague-symptoms-explained-after-russian-scientists-death-12524170",
+   "type": "intl"
+  },
+  {
+   "id": "s10",
+   "outlet": "Newsweek",
+   "title": "Russia's response under scrutiny",
+   "url": "https://www.newsweek.com/russias-response-to-suspected-plague-outbreak-under-scrutiny-12523852",
+   "type": "intl"
+  },
+  {
+   "id": "s11",
+   "outlet": "The Insider",
+   "title": "Central Asian countries tighten border controls",
+   "url": "https://theins.press/en/news/297925",
+   "type": "independent"
+  },
+  {
+   "id": "s12",
+   "outlet": "Qazinform",
+   "title": "Kyrgyzstan tightens border sanitary controls",
+   "url": "https://qazinform.com/news/kyrgyzstan-tightens-border-sanitary-controls-following-plague-report-in-russia-711d78",
+   "type": "state"
+  },
+  {
+   "id": "s13",
+   "outlet": "Asia-Plus",
+   "title": "Tajikistan tightens border sanitary controls",
+   "url": "https://asiaplus.news/en/2026/10/05/media-report-plague-cases-in-russia-tajikistan-tightens-border-sanitary-controls/",
+   "type": "regional"
+  },
+  {
+   "id": "s14",
+   "outlet": "Postimees (RU)",
+   "title": "Baikalsk officials post, then delete, travel warning",
+   "url": "https://rus.postimees.ee/8557669/v-irkutskoy-oblasti-chinovniki-posovetovali-ne-ezdit-v-gorod-gde-pacientka-bolnicy-mogla-umeret-ot-chumy-a-potom-udalili-post",
+   "type": "regional"
+  },
+  {
+   "id": "s15",
+   "outlet": "Current Time",
+   "title": "Authorities deny plague rumors but quarantine hospitals",
+   "url": "https://www.currenttime.tv/a/pnevmoniya-neustanovlennoy-etiologii-vlasti-irkutskoy-oblasti-otritsayut-sluhi-o-chume-no-vveli-karantin-v-chasti-bolnits/33870500.html",
+   "type": "independent"
+  },
+  {
+   "id": "s16",
+   "outlet": "Vesty.co.il",
+   "title": "Criminal case and antibiotic buying reports",
+   "url": "https://www.vesty.co.il/main/article/r100bryxjml",
+   "type": "regional"
+  },
+  {
+   "id": "s17",
+   "outlet": "JFeed",
+   "title": "Claim: four states seal Russia borders",
+   "url": "https://www.jfeed.com/news-world/tmgbfx",
+   "type": "low"
+  },
+  {
+   "id": "s18",
+   "outlet": "360.ru",
+   "title": "Plague focus on the Mongolian border (Sept 2026)",
+   "url": "https://360.ru/tekst/zdorove/vspyshka-chumy-na-granitse-rossii-chem-grozit-chernaja-smert-i-kak-obezopasit-sebja-i-detej/",
+   "type": "state"
+  },
+  {
+   "id": "s19",
+   "outlet": "NBC News",
+   "title": "Lab worker dies of suspected plague; 200 under observation",
+   "url": "https://www.nbcnews.com/world/europe/russia-plague-suspected-lab-worker-dies-200-medical-observation-rcna601559",
+   "type": "intl"
+  },
+  {
+   "id": "s20",
+   "outlet": "Newsweek",
+   "title": "Is Russia's plague scare Putin's Chernobyl?",
+   "url": "https://www.newsweek.com/russia-plague-irkutsk-putin-chernobyl-crisis-12524387",
+   "type": "intl"
+  },
+  {
+   "id": "s21",
+   "outlet": "plaguenews.com",
+   "title": "Independent multilingual aggregator",
+   "url": "https://plaguenews.com/",
+   "type": "aggregator"
+  },
+  {
+   "id": "s22",
+   "outlet": "Outbreak Watch",
+   "title": "Irkutsk incident situation brief",
+   "url": "https://outbreakwatch.fyi/",
+   "type": "aggregator"
+  },
+  {
+   "id": "s23",
+   "outlet": "Türkiye Today",
+   "title": "Five medical facilities reported quarantined",
+   "url": "https://www.turkiyetoday.com/world/plague-outbreak-expands-in-siberia-as-five-medical-facilities-placed-under-quarantine-3229610",
+   "type": "regional"
+  },
+  {
+   "id": "s24",
+   "outlet": "Gorod Prima (Irkutsk)",
+   "title": "What happened in Irkutsk: timeline",
+   "url": "https://gorodprima.ru/2026/10/05/chuma-v-irkutske-chto-proizoshlo-kak-zarazhayutsya-i-est-li-opasnost-dlya-lyudej/",
+   "type": "regional"
+  },
+  {
+   "id": "s25",
+   "outlet": "CNBC",
+   "title": "Russia hospitalizes almost 200 people",
+   "url": "https://www.cnbc.com/2026/10/05/suspected-plague-cases-reported-in-russias-irkutsk-region.html",
+   "type": "intl"
+  },
+  {
+   "id": "s26",
+   "outlet": "TK Gorod",
+   "title": "Hospital quarantine reports called fake",
+   "url": "https://tkgorod.ru/news/rospotrebnadzor-oproverg-zarazhenie-chumoi-pod-irkutskom-a-soobshcheniia-o-massovom-karantine-v-bolnitsakh-okazalis-feikom-54732/",
+   "type": "regional"
+  },
+  {
+   "id": "s27",
+   "outlet": "RFE/RL",
+   "title": "Anti-plague institute staff isolated after worker's death",
+   "url": "https://www.rferl.org/a/russia-plague-warning-siberia-irkutsk-laboratory/33870385.html",
+   "type": "independent"
+  },
+  {
+   "id": "s28",
+   "outlet": "Radio Svoboda",
+   "title": "Authorities deny danger but lock hospitals",
+   "url": "https://www.svoboda.org/a/vlasti-otritsayut-opasnostj-no-zapirayut-boljnitsy-smertj-sotrudnitsy-protivochumnogo-instituta/33870125.html",
+   "type": "independent"
+  },
+  {
+   "id": "s29",
+   "outlet": "Mongolia NCZD",
+   "title": "Statement on suspected plague case in Irkutsk",
+   "url": "https://nczd.gov.mn/?p=23532",
+   "type": "official"
+  },
+  {
+   "id": "s30",
+   "outlet": "Axios",
+   "title": "Trump: US willing to help Russia",
+   "url": "https://www.axios.com/2026/10/05/trump-us-russia-pneumonic-plague-risk-outbreak",
+   "type": "intl"
+  },
+  {
+   "id": "s31",
+   "outlet": "Washington Times",
+   "title": "Rubio: US monitoring, no cause for alarm",
+   "url": "https://www.washingtontimes.com/news/2026/oct/5/secretary-state-marco-rubio-says-us-monitoring-plague-reports-russia/",
+   "type": "intl"
+  },
+  {
+   "id": "s32",
+   "outlet": "Euronews",
+   "title": "Pneumonic plague suspected in Russia: risk to Europe (ECDC)",
+   "url": "https://www.euronews.com/2026/10/06/pneumonic-plague-suspected-in-russia-what-we-know-and-what-is-the-risk-to-europe",
+   "type": "intl"
+  },
+  {
+   "id": "s33",
+   "outlet": "Forbes",
+   "title": "WHO reacts to Russian plague lab death",
+   "url": "https://www.forbes.com/sites/siladityaray/2026/10/06/who-reacts-to-russian-plague-lab-death-as-trump-offers-help/",
+   "type": "intl"
+  },
+  {
+   "id": "s34",
+   "outlet": "Gordon (UA)",
+   "title": "Irkutsk institute plans international plague conference",
+   "url": "https://gordonua.com/section-worldnews/news-konferentsyya-vo-vremya-chumyi-yrkutskyy-ynstytut-hde-umerla-sotrudnytsa-sobyraet-mezhdunarodnoe-meropryyatye-05-10-2026.html",
+   "type": "regional"
+  },
+  {
+   "id": "s35",
+   "outlet": "IrCity (Irkutsk)",
+   "title": "Kobzev on when contacts will be discharged",
+   "url": "https://ircity.ru/text/health/2026/10/05/76678993/",
+   "type": "regional"
+  },
+  {
+   "id": "s36",
+   "outlet": "Lapsha Media",
+   "title": "Pro-government fact-check: Irkutsk hospital quarantines 'fake'",
+   "url": "https://lapsha.media/feiky/irkutsk-bolnicy-chuma/",
+   "type": "state"
+  },
+  {
+   "id": "s37",
+   "outlet": "Newsweek",
+   "title": "Trump weighs in after Rubio remarks",
+   "url": "https://www.newsweek.com/russia-pneumonic-plague-rubio-warning-spreading-symptoms-lab-12525250",
+   "type": "intl"
+  },
+  {
+   "id": "s38",
+   "outlet": "Digital Business (KZ)",
+   "title": "Kazakh Health Ministry statement on Irkutsk case",
+   "url": "https://digitalbusiness.kz/2026-10-05/umerla-rossiyanka-rabotavshaya-s-vozbuditelem-chumi-chto-govorit-kazahstanskiy-minzdrav/",
+   "type": "regional"
+  }
+ ],
+ "map": {
+  "main": {
+   "lonMin": 88,
+   "lonMax": 120.5,
+   "latMin": 46.5,
+   "latMax": 57.5
+  },
+  "inset": {
+   "lonMin": 103.45,
+   "lonMax": 105.15,
+   "latMin": 51.38,
+   "latMax": 52.7
+  },
+  "caption": "Siberia, Mongolia and the China crossing. The box marks the inset.",
+  "insetCaption": "Inset: Irkutsk, Shelekhov and the Baikal shore.",
+  "ringsKm": [
+   300,
+   600
+  ],
+  "insetRingKm": 15,
+  "insetLabels": [
+   [
+    "Lake Baikal",
+    104.75,
+    51.62
+   ]
+  ],
+  "labelOffsets": {
+   "inset": {
+    "ikt": [
+     10,
+     14
+    ],
+    "irkst": [
+     -8,
+     -12,
+     "end"
+    ],
+    "irk": [
+     10,
+     -8
+    ],
+    "shel": [
+     -12,
+     16,
+     "end"
+    ],
+    "ang": [
+     10,
+     4
+    ],
+    "bai": [
+     10,
+     4
+    ],
+    "sly": [
+     -10,
+     4,
+     "end"
+    ]
+   },
+   "main": {
+    "shel": [
+     12,
+     -10
+    ],
+    "uud": [
+     10,
+     -8
+    ],
+    "chita": [
+     10,
+     -8
+    ],
+    "kja": [
+     10,
+     -8
+    ],
+    "brat": [
+     10,
+     4
+    ],
+    "kyzyl": [
+     10,
+     4
+    ],
+    "nau": [
+     10,
+     4
+    ],
+    "zab": [
+     -10,
+     -10,
+     "end"
+    ],
+    "ub": [
+     10,
+     4
+    ],
+    "hovs": [
+     10,
+     14
+    ],
+    "tuva": [
+     10,
+     14
+    ]
+   }
+  },
+  "geo": {
+   "water": [
+    [
+     [
+      103.68,
+      51.73
+     ],
+     [
+      104.3,
+      51.84
+     ],
+     [
+      104.87,
+      51.87
+     ],
+     [
+      105.4,
+      52.2
+     ],
+     [
+      106.0,
+      52.6
+     ],
+     [
+      106.6,
+      53.0
+     ],
+     [
+      107.3,
+      53.4
+     ],
+     [
+      108.0,
+      53.9
+     ],
+     [
+      108.7,
+      54.5
+     ],
+     [
+      109.2,
+      55.2
+     ],
+     [
+      109.5,
+      55.8
+     ],
+     [
+      109.9,
+      55.7
+     ],
+     [
+      109.6,
+      55.0
+     ],
+     [
+      109.4,
+      54.3
+     ],
+     [
+      108.8,
+      53.6
+     ],
+     [
+      108.2,
+      53.0
+     ],
+     [
+      107.4,
+      52.5
+     ],
+     [
+      106.6,
+      52.2
+     ],
+     [
+      105.9,
+      51.9
+     ],
+     [
+      105.2,
+      51.55
+     ],
+     [
+      104.6,
+      51.45
+     ],
+     [
+      104.1,
+      51.5
+     ]
+    ]
+   ],
+   "borders": [
+    [
+     [
+      88.0,
+      49.45
+     ],
+     [
+      89.5,
+      50.4
+     ],
+     [
+      91.0,
+      50.7
+     ],
+     [
+      92.4,
+      50.8
+     ],
+     [
+      94.3,
+      50.55
+     ],
+     [
+      96.0,
+      50.0
+     ],
+     [
+      97.6,
+      49.85
+     ],
+     [
+      98.2,
+      50.6
+     ],
+     [
+      98.0,
+      51.4
+     ],
+     [
+      98.9,
+      52.1
+     ],
+     [
+      100.0,
+      51.75
+     ],
+     [
+      101.5,
+      51.45
+     ],
+     [
+      102.2,
+      51.3
+     ],
+     [
+      102.4,
+      50.6
+     ],
+     [
+      103.4,
+      50.2
+     ],
+     [
+      104.6,
+      50.3
+     ],
+     [
+      106.2,
+      50.33
+     ],
+     [
+      107.2,
+      50.0
+     ],
+     [
+      108.0,
+      49.6
+     ],
+     [
+      110.0,
+      49.2
+     ],
+     [
+      112.0,
+      49.5
+     ],
+     [
+      114.4,
+      50.25
+     ],
+     [
+      116.6,
+      49.85
+     ]
+    ],
+    [
+     [
+      116.6,
+      49.85
+     ],
+     [
+      117.33,
+      49.62
+     ],
+     [
+      118.0,
+      49.95
+     ],
+     [
+      119.5,
+      50.4
+     ],
+     [
+      120.5,
+      51.5
+     ]
+    ],
+    [
+     [
+      116.6,
+      49.85
+     ],
+     [
+      115.6,
+      48.2
+     ],
+     [
+      116.0,
+      47.7
+     ],
+     [
+      117.4,
+      47.6
+     ],
+     [
+      118.5,
+      47.9
+     ],
+     [
+      119.7,
+      47.2
+     ],
+     [
+      119.9,
+      46.7
+     ]
+    ],
+    [
+     [
+      88.0,
+      49.2
+     ],
+     [
+      89.5,
+      48.0
+     ],
+     [
+      90.8,
+      46.7
+     ]
+    ]
+   ],
+   "rail": [
+    [
+     [
+      88.0,
+      56.1
+     ],
+     [
+      92.87,
+      56.01
+     ],
+     [
+      95.7,
+      56.2
+     ],
+     [
+      98.0,
+      55.94
+     ],
+     [
+      99.03,
+      54.9
+     ],
+     [
+      100.6,
+      54.56
+     ],
+     [
+      102.05,
+      53.92
+     ],
+     [
+      103.89,
+      52.54
+     ],
+     [
+      104.26,
+      52.28
+     ],
+     [
+      104.1,
+      52.21
+     ],
+     [
+      103.9,
+      51.95
+     ],
+     [
+      103.71,
+      51.66
+     ],
+     [
+      104.15,
+      51.51
+     ],
+     [
+      105.1,
+      51.55
+     ],
+     [
+      107.58,
+      51.83
+     ],
+     [
+      108.9,
+      51.27
+     ],
+     [
+      110.46,
+      51.36
+     ],
+     [
+      113.5,
+      52.03
+     ],
+     [
+      114.35,
+      51.6
+     ],
+     [
+      116.0,
+      52.3
+     ],
+     [
+      118.5,
+      53.1
+     ],
+     [
+      120.5,
+      53.3
+     ]
+    ],
+    [
+     [
+      107.58,
+      51.83
+     ],
+     [
+      106.1,
+      50.4
+     ],
+     [
+      105.95,
+      49.47
+     ],
+     [
+      106.92,
+      47.92
+     ],
+     [
+      107.6,
+      46.5
+     ]
+    ],
+    [
+     [
+      114.35,
+      51.6
+     ],
+     [
+      116.5,
+      50.39
+     ],
+     [
+      117.33,
+      49.64
+     ]
+    ]
+   ],
+   "labels": [
+    [
+     "IRKUTSK OBLAST",
+     100.0,
+     55.6
+    ],
+    [
+     "BURYATIA",
+     111.3,
+     54.5
+    ],
+    [
+     "ZABAYKALSKY KRAI",
+     115.5,
+     53.2
+    ],
+    [
+     "KRASNOYARSK KRAI",
+     91.0,
+     57.0
+    ],
+    [
+     "TUVA",
+     94.0,
+     51.0
+    ],
+    [
+     "MONGOLIA",
+     103.0,
+     48.2
+    ],
+    [
+     "CHINA",
+     118.6,
+     48.6
+    ],
+    [
+     "Lake Baikal",
+     108.6,
+     54.9,
+     true
+    ]
+   ]
+  }
+ }
+}
